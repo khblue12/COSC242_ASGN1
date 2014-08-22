@@ -5,7 +5,7 @@
 #include <ctype.h>
 #include "mylib.h"
 
-/**reads a word from a stream and saves it at the address *s
+/**reads a word from a stream and saves it at the address *s 
  */
 int getword(char *s, int limit, FILE *stream) {
 int c;
