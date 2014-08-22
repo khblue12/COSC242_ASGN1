@@ -12,7 +12,7 @@ struct htablerec {
     int *freq;
 };
 
-/* Majically converts a word into a number */
+/* Magically converts a word into a number */
 static unsigned int htable_word_to_int(char *word) {
     unsigned int result = 0;
 
